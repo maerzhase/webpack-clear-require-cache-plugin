@@ -4,7 +4,7 @@ A plugin to delete modules from the `require.cache`. This is especially useful w
 
 - [Why use this?](#why-use-this)
 - [Usage](#usage)
-- [Next.js Example](#next-js-example)
+- [Next.js Example](#nextjs-example)
 
 
 ## Why use this?
