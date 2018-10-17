@@ -1,0 +1,11 @@
+{
+  "presets": [
+    ['env', {
+      loose: true,
+      target: {
+        node: true,
+      },
+    }],
+    "stage-3",
+  ]
+}

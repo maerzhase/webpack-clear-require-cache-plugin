@@ -1,0 +1,26 @@
+{
+  "name": "webpack-clear-require-cache-plugin",
+  "version": "0.0.1",
+  "description": "clear require cache upon webpack compiler afterEmit hook",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir lib",
+    "watch": "./node_modules/.bin/babel src --watch --out-dir lib",
+    "release": "npm run build && npm publish"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "clear",
+    "require",
+    "cache"
+  ],
+  "author": "maerzhase",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
