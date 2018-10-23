@@ -49,7 +49,7 @@ exports.webpack = config =>
       clearRequireCachePlugin([
         /\.next\/server\/static\/development\/pages/,
         /\.next\/server\/ssr-module-cache.js/,
-        /ada-next/,
+        /my-module/, // replace this with your own module name
       ]),
     ],
   });
