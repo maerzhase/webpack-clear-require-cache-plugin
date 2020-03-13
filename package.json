@@ -1,6 +1,6 @@
 {
   "name": "webpack-clear-require-cache-plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "clear require cache upon webpack compiler afterEmit hook",
   "main": "lib/index.js",
   "scripts": {
